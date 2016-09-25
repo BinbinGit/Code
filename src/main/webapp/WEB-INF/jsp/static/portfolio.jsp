@@ -76,15 +76,15 @@
   <div class="header">	
       <div class="wrap"> 
 	         <div class="logo">
-				<a href="index.html"><img src="../images/logo.png" alt=""/></a>
+				<a href="index"><img src="../images/logo.png" alt=""/></a>
 			 </div>
 			 <div class="cssmenu">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li class="active"><a href="portfolio.html">Portfolio</a></li> 
-					<li><a href="blog.html">Blog</a></li> 
-					<li><a href="about.html">About Me</a></li> 
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="index">Home</a></li>
+					<li class="active"><a href="portfolio">Portfolio</a></li> 
+					<li><a href="blog">Blog</a></li> 
+					<li><a href="about">About Me</a></li> 
+					<li><a href="contact">Contact</a></li>
 				</ul>
 		     </div>
 		    <div class="clear"></div>
@@ -116,7 +116,7 @@
 			<div class="wrapper">
 			<div class="portfolio logo1 mix_all" data-cat="logo" style=" ">
 				<div class="portfolio-wrapper">				
-					<a href="project.html">
+					<a href="project">
 						<img src="../images/pic12.jpg" alt="Image 2">
 					</a>
 					<div class="links">
@@ -129,7 +129,7 @@
 			</div>				
 			<div class="portfolio app mix_all" data-cat="app" style="  display: inline-block; opacity: 1;">
 				<div class="portfolio-wrapper">			
-					<a href="project.html">
+					<a href="project">
 						<img src="../images/pic13.jpg" alt="Image 2">
 					</a>
 					<div class="links">
@@ -142,7 +142,7 @@
 			</div>		
 			<div class="portfolio web mix_all" data-cat="web" style="  display: inline-block; opacity: 1;">
 				<div class="portfolio-wrapper">						
-					<a href="project.html">
+					<a href="project">
 						<img src="../images/pic14.jpg" alt="Image 2">
 					</a>
 					<div class="links">
@@ -155,7 +155,7 @@
 			</div>				
 			<div class="portfolio card mix_all" data-cat="card" style="  display: inline-block; opacity: 1;">
 				<div class="portfolio-wrapper">			
-					<a href="project.html">
+					<a href="project">
 						<img src="../images/pic15.jpg" alt="Image 2">
 					</a>
 					<div class="links">
@@ -168,7 +168,7 @@
 			</div>	
 			<div class="portfolio app mix_all" data-cat="app" style="  display: inline-block; opacity: 1;">
 				<div class="portfolio-wrapper">
-					<a href="project.html">
+					<a href="project">
 						<img src="../images/pic16.jpg" alt="Image 2">
 					</a>
 					<div class="links">
@@ -181,7 +181,7 @@
 			</div>			
 			<div class="portfolio card mix_all" data-cat="card" style="  display: inline-block; opacity: 1;">
 				<div class="portfolio-wrapper">			
-					<a href="project.html">
+					<a href="project">
 						<img src="../images/pic17.jpg" alt="Image 2">
 					</a>
 					<div class="links">
@@ -194,7 +194,7 @@
 			</div>	
 			<div class="portfolio card mix_all" data-cat="card" style="  display: inline-block; opacity: 1;">
 				<div class="portfolio-wrapper">			
-					<a href="project.html">
+					<a href="project">
 						<img src="../images/pic18.jpg" alt="Image 2">
 					</a>
 					<div class="links">
@@ -207,7 +207,7 @@
 			</div>	
 			<div class="portfolio logo1 mix_all" data-cat="logo" style=" ">
 				<div class="portfolio-wrapper">			
-					<a href="project.html">
+					<a href="project">
 						<img src="../images/pic19.jpg" alt="Image 2">
 					</a>
 					<div class="links">
@@ -220,7 +220,7 @@
 			</div>																																							
 			<div class="portfolio app mix_all" data-cat="app" style="  display: inline-block; opacity: 1;">
 				<div class="portfolio-wrapper">			
-					<a href="project.html">
+					<a href="project">
 						<img src="../images/pic20.jpg" alt="Image 2">
 					</a>
 					<div class="links">
@@ -241,11 +241,11 @@
 	 	<div class="wrap">
 		 	<div class="footer-nav">
 		 		<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li> 
-					<li><a href="blog.html">Blog</a></li> 
-					<li><a href="about.html">About Me</a></li> 
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="index">Home</a></li>
+					<li><a href="portfolio">Portfolio</a></li> 
+					<li><a href="blog">Blog</a></li> 
+					<li><a href="about">About Me</a></li> 
+					<li><a href="contact">Contact</a></li>
 				</ul>
 		 	</div>
 		 	<div class="clear"></div>

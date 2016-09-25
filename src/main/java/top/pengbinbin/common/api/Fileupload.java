@@ -9,7 +9,6 @@ import org.springframework.web.multipart.MultipartFile;
 public class Fileupload {
 	/**
 	 * 
-	 *作者：张伟键
 	 *方法描述：
 	 * @param pic_files  待上传的图片
 	 * @param role 上传者角色

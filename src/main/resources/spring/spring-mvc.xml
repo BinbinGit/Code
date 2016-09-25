@@ -20,7 +20,7 @@
 	
 	<!-- 使用Annotation自动注册Bean,只扫描@Controller -->
 	<!-- base-package 如果多个，用“,”分隔 -->
-	<context:component-scan base-package="top.pengbinbin.controller"
+	<context:component-scan base-package="top.pengbinbin"
 		use-default-filters="false">
 		<context:include-filter type="annotation"
 			expression="org.springframework.stereotype.Controller" />

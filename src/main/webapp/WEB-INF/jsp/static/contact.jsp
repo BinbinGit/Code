@@ -30,15 +30,15 @@
   <div class="header">	
        <div class="wrap"> 
 	         <div class="logo">
-				<a href="index.html"><img src="../images/logo.png" alt=""/></a>
+				<a href="index"><img src="../images/logo.png" alt=""/></a>
 			 </div>
 			 <div class="cssmenu">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li> 
-					<li><a href="blog.html">Blog</a></li> 
-					<li><a href="about.html">About Me</a></li> 
-					<li class="active"><a href="contact.html">Contact</a></li>
+					<li><a href="index">Home</a></li>
+					<li><a href="portfolio">Portfolio</a></li> 
+					<li><a href="blog">Blog</a></li> 
+					<li><a href="about">About Me</a></li> 
+					<li class="active"><a href="contact">Contact</a></li>
 				</ul>
 		     </div>
 		    <div class="clear"></div>
@@ -58,7 +58,7 @@
 	 	  <div class="contact">
 	 	  		<div class="cont span_2_of_contact">
 	 	  		<h5 class="leave">Send Us A Message</h5><div class="clear"></div>	
-				  <form method="post" action="contact-post.html">
+				  <form method="post" action="contact-post">
 					<div class="contact-to">
                      	<input type="text" class="text" value="Name..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name...';}">
 					 	<input type="text" class="text" value="Email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email...';}" style="margin-left: 10px">
@@ -92,11 +92,11 @@
 	 	<div class="wrap">
 		 	<div class="footer-nav">
 		 		<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li> 
-					<li><a href="blog.html">Blog</a></li> 
-					<li><a href="about.html">About Me</a></li> 
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="index">Home</a></li>
+					<li><a href="portfolio">Portfolio</a></li> 
+					<li><a href="blog">Blog</a></li> 
+					<li><a href="about">About Me</a></li> 
+					<li><a href="contact">Contact</a></li>
 				</ul>
 		 	</div>
 		 	<div class="clear"></div>

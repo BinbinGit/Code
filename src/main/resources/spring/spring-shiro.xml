@@ -7,7 +7,7 @@
     http://www.springframework.org/schema/util/spring-util-3.0.xsd">
 	<description>Shiro 配置</description>
 	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
-		<property name="securityManager" ref="securityManager"/>
+		<property name="securityManager" ref="securityManager" />
 		<property name="loginUrl" value="/view/index" />
 		<!-- 用户访问未对其授权的页面时显示的页面  -->
 		<property name="unauthorizedUrl" value="/view/index"></property>
@@ -29,7 +29,7 @@
 		</property>
 	</bean>
 
-	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
 		<!--设置自定义realm -->
 		<property name="realm" ref="monitorRealm" />
 	</bean>
