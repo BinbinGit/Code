@@ -14,13 +14,12 @@ import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.SimplePrincipalCollection;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.turingdi.dspmerger.entity.User;
-import com.turingdi.dspmerger.service.UserService;
+import top.pengbinbin.entity.User;
+import top.pengbinbin.service.UserService;
+
 
 /**
- * 
- * @author zwj
- * 用�??: 用于权限控制
+ * 权限控制
  */
 
 public class MonitorRealm extends AuthorizingRealm {
@@ -48,7 +47,7 @@ public class MonitorRealm extends AuthorizingRealm {
 	@Override
 	protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
 		String currentUserEmail = (String)super.getAvailablePrincipal(principals);
-		if(currentUserEmail.equals("admin@turingdi.com")){
+		if(currentUserEmail.equals("addmin")){
 			SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
 			simpleAuthorizationInfo.addRole("admin");
 			simpleAuthorizationInfo.addStringPermission("admin");
@@ -58,21 +57,20 @@ public class MonitorRealm extends AuthorizingRealm {
 	}
 	
 	/**
-	 * 认证回调函数,登录时调�?
+	 * 认证回调函数,登录时调用
 	 */
 	@Override
 	protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
 		 UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;
-		 User verifyUser = userService.selectByEmail(token.getUsername());
-		 //判断是否存在该用�?
+		 User verifyUser = userService.selectByUserName(token.getUsername());
+		 //判断是否存在该用户
 		 if(verifyUser != null){
 			 String passwd = new String(token.getPassword());
 			 //验证密码,成功返回认证,失败返回null
 			 if(verifyUser.getPassword().equals(passwd)){
-				 //将email加入到session�?
+				 //将email加入到session里面
 				Session session = SecurityUtils.getSubject().getSession();
-				session.setAttribute("email", verifyUser.getEmail());
-				session.setAttribute("idadvertiser", verifyUser.getidadvertiser());
+				session.setAttribute("userName", verifyUser.getUserName());
 				 return new SimpleAuthenticationInfo(token.getUsername(),
 							token.getPassword(),getName());
 			 }

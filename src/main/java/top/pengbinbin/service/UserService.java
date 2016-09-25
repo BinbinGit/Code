@@ -1,8 +1,8 @@
-package top.pengbinbin.dao;
+package top.pengbinbin.service;
 
 import top.pengbinbin.entity.User;
 
-public interface UserMapper {
+public interface UserService {
     int deleteByPrimaryKey(Integer id);
 
     int insert(User record);
@@ -14,4 +14,6 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
+
+	User selectByUserName(String username);
 }

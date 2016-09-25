@@ -1,8 +1,10 @@
 package top.pengbinbin.dao;
 
+import top.pengbinbin.common.api.MybatisDao;
 import top.pengbinbin.entity.Article;
 
-public interface ArticleMapper {
+@MybatisDao
+public interface ArticleDao {
     int deleteByPrimaryKey(Integer id);
 
     int insert(Article record);
