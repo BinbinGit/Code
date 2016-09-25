@@ -76,9 +76,9 @@
 				   <h5 class="leave">Contact Info</h5><div class="clear"></div>
 				   <div class="contact-list">
 						<ul>
-							<li><img src="../images/address.png" alt=""><p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh</p><div class="clear"></div></li>
-							<li><img src="../images/phone.png" alt=""><p>Phone: +1 800 258 2689<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+1 800 258 2689 </p><div class="clear"></div></li>
-							<li><img src="../images/msg.png" alt=""><p>Email: <span class="yellow1"><a href="#">info(at)skokov.com</a></span></p><div class="clear"></div></li>
+							<li><img src="../images/address.png" alt=""><p>地址：中国大陆</p><div class="clear"></div></li>
+							<li><img src="../images/phone.png" alt=""><p>电话: 1 1 0 </p><div class="clear"></div></li>
+							<li><img src="../images/msg.png" alt=""><p>Email: <span class="yellow1"><a href="#">www.pengbinbin.top</a></span></p><div class="clear"></div></li>
 					   </ul>
 					</div>
 			    </div>

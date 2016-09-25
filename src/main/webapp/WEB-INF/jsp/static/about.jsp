@@ -48,7 +48,7 @@
    </div>
    <div class="banner">
       	<div class="wrap">
-      	    <h2>About Us</h2><div class="clear"></div>
+      	    <h2>About Me</h2><div class="clear"></div>
       	</div>
     </div>
   <div class="main">	

@@ -6,13 +6,13 @@
 <title>Home</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!---<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>--->
 <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery -->
 <script type="text/javascript" src="../js/jquery.min.js"></script>
 <!-- Add fancyBox main JS and CSS files -->
 <script src="../js/jquery.magnific-popup.js" type="text/javascript"></script>
 <link href="../css/magnific-popup.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" href="../css/colorbox.css">
 		<script>
 			$(document).ready(function() {
 				$('.popup-with-zoom-anim').magnificPopup({
@@ -52,26 +52,31 @@
 			   <div class="wmuSliderWrapper">
 				   <article style="position: absolute; width: 100%; opacity: 0;"> 
 				   	<div class="banner-wrap">
+				   	<img src="../images/home-total1.jpg" alt=""/>
 						 <div class="clear"></div>
 					 </div>
 					</article>
 				   <article style="position: relative; width: 100%; opacity: 1;"> 
 				   	 <div class="banner-wrap">
+				   	 	<img src="../images/home-total2.jpg" alt=""/>
 						<div class="clear"></div>
 					 </div>
 				   </article>
 				   <article style="position: absolute; width: 100%; opacity: 0;">
 				   	<div class="banner-wrap">
+				   		<img src="../images/home-total3.jpg" alt=""/>
 						 <div class="clear"></div>
 					 </div>
 				   </article>
 				   <article style="position: absolute; width: 100%; opacity: 0;">
 				   	<div class="banner-wrap">
+				   		<img src="../images/home-total4.jpg" alt=""/>
 						 <div class="clear"></div>
 					 </div>
 				   </article>
 				   <article style="position: absolute; width: 100%; opacity: 0;"> 
 				   		<div class="banner-wrap">
+				   			<img src="../images/home-total5.jpg" alt=""/>
 						 <div class="clear"></div>
 					 </div>
 			      </article>
@@ -98,13 +103,7 @@
 			<h3>We Creative Quality Designs.</h3>
 			<h5>We Specialize in Web Design / Development and Graphic Design</h5>
 			<div class="section group">
-				<div class="col_1_of_4 span_1_of_first">
-					<img src="../images/pic.jpg" alt=""/>
-					<div class="desc">
-					   <h4>Redesigning<br> with personality<br><span>in<span class="small">&nbsp;web design</span></span><div class="clear"></div></h4>
-					</div> 
-				</div>
-				<div class="col_1_of_4 span_1_of_4">
+				<div class="col_1_of_4 span_1_of_4" style="margin-left:12.5%;">
 					<div class="grid1">
 						<img src="../images/icon1.png" alt=""/>
 						<h4>Web development</h4>
@@ -136,8 +135,7 @@
 		</div>
 	</div>
 	<div class="content-middle">
-		<h2><span>Our work</span></h2>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+		<h2><span>My work</span></h2>
       <div id="container">
         <div id="main1">
        <ul id="tiles">
@@ -250,7 +248,6 @@
      </ul>
    </div> 
   </div>
-   <link rel="stylesheet" href="../css/colorbox.css">
   <!-- Include the imagesLoaded plug-in -->
   <script src="../js/jquery.imagesloaded.js"></script>
   <!-- include colorbox -->
@@ -284,8 +281,8 @@
   </script>
 </div>
    <div class="content-bottom">
-		<h2><span>Our Clients</span></h2>  
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>     
+		<h2><span>My Clients</span></h2>  
+		<p></p>     
 		<ul id="flexiselDemo3">
 			<li><img src="../images/client1.jpg" /></li>
 			<li><img src="../images/client2.jpg" /></li>
@@ -361,6 +358,5 @@ $(window).load(function() {
 	    </div>
 	</div>
 </div>
-<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>
