@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -10,6 +12,7 @@
 <script src="../js/jquery.min.js"></script>
 <script src="../js/jquery.magnific-popup.js" type="text/javascript"></script>
 <link href="../css/magnific-popup.css" rel="stylesheet" type="text/css">
+
 		<script>
 			$(document).ready(function() {
 				$('.popup-with-zoom-anim').magnificPopup({
@@ -34,11 +37,11 @@
 			 </div>
 			 <div class="cssmenu">
 				<ul>
-					<li><a href="index">Home</a></li>
-					<li><a href="portfolio">Portfolio</a></li> 
-					<li><a href="blog">Blog</a></li> 
-					<li><a href="about">About Me</a></li> 
-					<li class="active"><a href="contact">Contact</a></li>
+					<li><a href="index">主页</a></li>
+					<li><a href="portfolio">个人作品</a></li> 
+					<li><a href="blog">博客</a></li> 
+					<li><a href="about">关于我</a></li> 
+					<li class="active"><a href="contact">联系</a></li>
 				</ul>
 		     </div>
 		    <div class="clear"></div>
@@ -50,10 +53,7 @@
       	</div>
     </div>
   <div class="main">	
-	 <div class="project-wrapper">
-	 	<div class="map">
-		   <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="color:#666;text-align:left;font-size:12px"></a></small>
-	    </div> 
+	 <div class="project-wrapper"> 		 
 	    <div class="wrap">
 	 	  <div class="contact">
 	 	  		<div class="cont span_2_of_contact">
