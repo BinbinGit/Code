@@ -9,11 +9,16 @@
 	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
 		<property name="securityManager" ref="securityManager"/>
 		<property name="loginUrl" value="/view/index" />
+		<!-- 用户访问未对其授权的页面时显示的页面  -->
+		<property name="unauthorizedUrl" value="/view/index"></property>
 		<property name="filterChainDefinitions">
 			<value>
 						
 			<!-- 权限验证 -->
 			/user/* = authc,roles[admin]
+			/css/* = anon
+			/images/* = anon
+			/js/* = anon
 			
 			<!-- 验证登陆 -->
 			/view/*=anon
