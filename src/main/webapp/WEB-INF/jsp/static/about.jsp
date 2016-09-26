@@ -58,15 +58,25 @@
 				<div class="lsidebar span_1_of_about">
 				   <img src="../images/about-img.jpg" alt=""/>
 			    </div>
-				<div class="cont span_2_of_about">
-					<h2>Welcome to our Team</h2>
-				    <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam </h3>
+				<div class="cont span_2_of_about" >
+					<img src="../images/welcomespace.png" alt=""/>
+					<br>
+					<div class="contact-to">
+					<input style="margin-left:300px" type="text" class="text" value="用户名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '用户名';}" style="margin-left: 10px">
+					<br>
+					<br>
+					<br>
+					<input style="margin-left:300px" type="text" class="text" value="密  码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '密  码';}" style="margin-left: 10px">
+					</div>
+					<br><br><br>
+					<br>
+				    <div style="margin-left:400px"><img src="../images/login.png" alt=""/></div>
 					<div class="section group example">
 						<div class="col_1_of_2 span_1_of_2">
-						   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+						   <p></p>
 		 				</div>
 						<div class="col_1_of_2 span_1_of_2">
-						   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+						   <p></p>
 						</div>
 						<div class="clear"></div>	
 		    		</div>				    
@@ -74,31 +84,31 @@
 				<div class="clear"></div>				
 		    </div>
 		    <div class="about-middle">
-		   	 <h4><span>Our Skills</span></h4>
-		   	 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-		   </div>
+		   	 <h4><span>My Skills</span></h4>
+		   	 <p></p>
+		   	</div>
 		   <div class="section group example">
 			   <div class="col_1_of_2 span_1_of_2">
 			   	  <div class="skills">
                      <ul>
                      	<li>
-                     		<div class="percentage">90%</div>
-                     		<div class="percent-text">Html/css</div>
+                     		<div class="percentage">12%</div>
+                     		<div class="percent-text" style="width:12%;">helloworld</div>
                      		<div class="clear"></div>	
                      	</li>
                      	<li>
-                     		<div class="percentage">87%</div>
-                     		<div class="percent-text1">Html/css</div>
+                     		<div class="percentage" >13%</div>
+                     		<div class="percent-text1" style="width:13%;">c</div>
                      		<div class="clear"></div>	
                      	</li>
                      	<li>
-                     		<div class="percentage">70%</div>
-                     		<div class="percent-text2">Html/css</div>
+                     		<div class="percentage">24%</div>
+                     		<div class="percent-text2"style="width:24%;">C++</div>
                      		<div class="clear"></div>	
                      	</li>
                      	<li>
-                     		<div class="percentage">75%</div>
-                     		<div class="percent-text3">Html/css</div>
+                     		<div class="percentage">15%</div>
+                     		<div class="percent-text3" style="width:15%;">assembler</div>
                      		<div class="clear"></div>	
                      	</li>
                      	<div class="clear"></div>	
@@ -109,23 +119,23 @@
 				  <div class="skills">
                      <ul>
                      	<li>
-                     		<div class="percentage">80%</div>
-                     		<div class="percent-text4">Html/css</div>
+                     		<div class="percentage">16%</div>
+                     		<div class="percent-text4" style="width:16%;">Html/css</div>
                      		<div class="clear"></div>	
                      	</li>
                      	<li>
-                     		<div class="percentage">76%</div>
-                     		<div class="percent-text5">Html/css</div>
+                     		<div class="percentage">17%</div>
+                     		<div class="percent-text5" style="width:17%;">web</div>
                      		<div class="clear"></div>	
                      	</li>
                      	<li>
-                     		<div class="percentage">65%</div>
-                     		<div class="percent-text6">Html/css</div>
+                     		<div class="percentage">28%</div>
+                     		<div class="percent-text6" style="width:28%;">java</div>
                      		<div class="clear"></div>	
                      	</li>
                      	<li>
-                     		<div class="percentage">85%</div>
-                     		<div class="percent-text7">Html/css</div>
+                     		<div class="percentage">19%</div>
+                     		<div class="percent-text7" style="width:19%;">android</div>
                      		<div class="clear"></div>	
                      	</li>
                      	<div class="clear"></div>	
@@ -135,83 +145,34 @@
 			   <div class="clear"></div>	
 		  </div>
 		   <div class="about-middle">
-		   	 <h4><span>Our Team</span></h4>
-		   	 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+		   	 <h4><span>My Team</span></h4>
+		   	 <p></p>
 		   </div>
-		   <div class="team1">
-				<div class="col_1_of_about-grids span_1_of_about-grids">
-				<a class="popup-with-zoom-anim" href="#small-dialog2">
-					<img src="../images/about-img2.jpg" alt=""/>
-					<h3>Web Designer</h3>
-				</a>
-				</div>
-				<div class="col_1_of_about-grids span_1_of_about-grids">
-				<a class="popup-with-zoom-anim" href="#small-dialog2">	
-					<img src="../images/about-img3.jpg" alt=""/>
-					<h3>Web Designer</h3>
-				</a>
-				</div>
-				<div class="col_1_of_about-grids span_1_of_about-grids">
-				<a class="popup-with-zoom-anim" href="#small-dialog2">
-					<img src="../images/about-img4.jpg" alt=""/>
-					<h3>Web Designer</h3>
-				</a>
-				</div>
-				<div class="col_1_of_about-grids span_1_of_about-grids">
-				<a class="popup-with-zoom-anim" href="#small-dialog2">
-					<img src="../images/about-img5.jpg" alt=""/>
-					<h3>Web Designer</h3>
-				</a>
-				</div>
-				<div class="clear"></div>
-			</div>
 			<div class="team1">
-				<div class="col_1_of_about-grids span_1_of_about-grids">
-					<a class="popup-with-zoom-anim" href="#small-dialog2">
-						<img src="../images/about-img6.jpg" alt=""/>
-						<h3>Web Designer</h3>
+				<div class="col_1_of_about-grids span_1_of_about-grids" align="center" style="margin-left:41%">
+					<a class="popup-with-zoom-anim" href="#small-dialog2" >
+						<img src="../images/about-img9.jpg" alt=""/>
+						<h3>Only Me</h3>
 					</a>
 						<!-- start magnific -->
 								 <div id="small-dialog2" class="mfp-hide">
 									<div class="pop_up">
 									 	<h2>about designer</h2>
-									 	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-									 	<div class="social-icons">
+									 	<p></p>
+							<div class="social-icons">
 									 			
-					 	<h2 style="margin-top: 4%;">get in touch</h2>
+					 	<h2 style="margin-top: 4%;">hello,I'm Binbin</h2>
 						    <ul>	
 							  <li class="facebook"><a href="#"><span> </span></a></li>
 					          <li class="google"><a href="#"><span> </span></a></li>
 					          <li class="twitter"><a href="#"><span> </span></a></li>
-					          <li class="linkedin"><a href="#"><span> </span></a></li>	 
-					          <li class="youtube"><a href="#"><span> </span></a></li>	
-					          <li class="bloger"><a href="#"><span> </span></a></li>
-					          <li class="rss"><a href="#"><span> </span></a></li>	
-					          <li class="dribble"><a href="#"><span> </span></a></li>		        	
+					          <li class="linkedin"><a href="#"><span> </span></a></li>	 	        	
 					        </ul>
 				     </div>
 						  			</div>
 								</div>
 					<!-- end  magnific -->
 
-				</div>
-				<div class="col_1_of_about-grids span_1_of_about-grids">
-				<a class="popup-with-zoom-anim" href="#small-dialog2">
-					<img src="../images/about-img7.jpg" alt=""/>
-					<h3>Web Designer</h3>
-				</a>
-				</div>
-				<div class="col_1_of_about-grids span_1_of_about-grids">
-				<a class="popup-with-zoom-anim" href="#small-dialog2">
-					<img src="../images/about-img8.jpg" alt=""/>
-					<h3>Web Designer</h3>
-				</a>
-				</div>
-				<div class="col_1_of_about-grids span_1_of_about-grids">
-				<a class="popup-with-zoom-anim" href="#small-dialog2">
-					<img src="../images/about-img9.jpg" alt=""/>
-					<h3>Web Designer</h3>
-				</a>
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -234,6 +195,5 @@
 	    </div>
 	</div>
 </div>
-<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>
