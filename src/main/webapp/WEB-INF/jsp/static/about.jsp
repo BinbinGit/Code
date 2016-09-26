@@ -62,15 +62,19 @@
 					<img src="../images/welcomespace.png" alt=""/>
 					<br>
 					<div class="contact-to">
-					<input style="margin-left:300px" type="text" class="text" value="用户名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '用户名';}" style="margin-left: 10px">
+					<input style="margin-left:250px" type="text" class="text" value="用户名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '用户名';}" style="margin-left: 10px">
 					<br>
 					<br>
 					<br>
-					<input style="margin-left:300px" type="text" class="text" value="密  码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '密  码';}" style="margin-left: 10px">
+					<input style="margin-left:250px" type="text" class="text" value="密  码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '密  码';}" style="margin-left: 10px">
 					</div>
-					<br><br><br>
 					<br>
-				    <div style="margin-left:400px"><img src="../images/login.png" alt=""/></div>
+					<br>
+					<br>
+					<div class="contact-to"><div class=" captcha"></div>
+					<input style="margin-left:250px" type="text" class="text" value="验证码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '验证码';}" style="margin-left: 10px">
+					</div>
+				    <div style="margin-left:200px; float:right;"><img src="../images/login.png" alt=""/></div>
 					<div class="section group example">
 						<div class="col_1_of_2 span_1_of_2">
 						   <p></p>

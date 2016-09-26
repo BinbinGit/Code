@@ -1,8 +1,16 @@
 package top.pengbinbin.controller;
 
+import java.io.IOException;
+
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
+import top.pengbinbin.common.api.Captcha;
 
 @Controller
 @RequestMapping("view")
@@ -55,5 +63,19 @@ public class view {
 		ModelAndView modelAndView = new ModelAndView();		
 		modelAndView.setViewName("static/single");
 		return modelAndView;
+	}
+	@RequestMapping("captcha")
+	public void captcha(HttpServletRequest reqeust,HttpServletResponse response) throws IOException  {
+		// 设置响应的类型格式为图片格式  
+        response.setContentType("image/jpeg");  
+        // 禁止图像缓存。  
+        response.setHeader("Pragma", "no-cache");  
+        response.setHeader("Cache-Control", "no-cache");  
+        response.setDateHeader("Expires", 0);  
+        Captcha instance = new Captcha();
+        Cookie cookie = new Cookie("scaptcha", instance.getCode());  
+        cookie.setMaxAge(1800);
+        response.addCookie(cookie);  
+        instance.write(response.getOutputStream());
 	}
 }
