@@ -64,6 +64,12 @@ public class view {
 		modelAndView.setViewName("static/single");
 		return modelAndView;
 	}
+	/**
+	 * 验证码
+	 * @param reqeust
+	 * @param response
+	 * @throws IOException
+	 */
 	@RequestMapping("captcha")
 	public void captcha(HttpServletRequest reqeust,HttpServletResponse response) throws IOException  {
 		// 设置响应的类型格式为图片格式  

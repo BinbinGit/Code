@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+$(function(){
+	$(".captchaTest").focus(function(){
+		$(".captcha").show();
+	});
+	$(".captchaTest").blur(function(){
+		$(".captcha").hide();
+	});
+});

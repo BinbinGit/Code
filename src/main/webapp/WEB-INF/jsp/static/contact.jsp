@@ -49,7 +49,7 @@
    </div>
    <div class="banner">
       	<div class="wrap">
-      	    <h2>Contact</h2><div class="clear"></div>
+      	    <h2>联系</h2><div class="clear"></div>
       	</div>
     </div>
   <div class="main">	
@@ -57,27 +57,27 @@
 	    <div class="wrap">
 	 	  <div class="contact">
 	 	  		<div class="cont span_2_of_contact">
-	 	  		<h5 class="leave">Send Us A Message</h5><div class="clear"></div>	
+	 	  		<h5 class="leave">发送邮箱</h5><div class="clear"></div>	
 				  <form method="post" action="contact-post">
 					<div class="contact-to">
-                     	<input type="text" class="text" value="Name..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name...';}">
-					 	<input type="text" class="text" value="Email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email...';}" style="margin-left: 10px">
-					 	<input type="text" class="text" value="Subject..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject...';}" style="margin-left: 10px">
+                     	<input type="text" class="text" value="姓名..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '姓名...';}">
+					 	<input type="text" class="text" value="邮箱..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '邮箱...';}" style="margin-left: 10px">
+					 	<input type="text" class="text" value="建议..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '建议...';}" style="margin-left: 10px">
 					</div>
 					<div class="text2">
-	                   <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message..</textarea>
+	                   <textarea value="信息:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '信息..';}">信息..</textarea>
 	                </div>
 	                <div>
-	               		<a href="#" class="submit">Send a Message</a>
+	               		<a href="#" class="submit">发送</a>
 	                </div>
 	             </form>
 				</div>
 				<div class="lsidebar span_1_of_about">
-				   <h5 class="leave">Contact Info</h5><div class="clear"></div>
+				   <h5 class="leave">联系信息</h5><div class="clear"></div>
 				   <div class="contact-list">
 						<ul>
 							<li><img src="../images/address.png" alt=""><p>地址：中国大陆</p><div class="clear"></div></li>
-							<li><img src="../images/phone.png" alt=""><p>电话: 1 1 0 </p><div class="clear"></div></li>
+							<li><img src="../images/phone.png" alt=""><p>电话: 12580 </p><div class="clear"></div></li>
 							<li><img src="../images/msg.png" alt=""><p>Email: <span class="yellow1"><a href="#">www.pengbinbin.top</a></span></p><div class="clear"></div></li>
 					   </ul>
 					</div>
@@ -92,11 +92,11 @@
 	 	<div class="wrap">
 		 	<div class="footer-nav">
 		 		<ul>
-					<li><a href="index">Home</a></li>
-					<li><a href="portfolio">Portfolio</a></li> 
-					<li><a href="blog">Blog</a></li> 
-					<li><a href="about">About Me</a></li> 
-					<li><a href="contact">Contact</a></li>
+					<li><a href="index">主页</a></li>
+					<li><a href="portfolio">个人作品</a></li> 
+					<li><a href="blog">博客</a></li> 
+					<li><a href="about">关于我</a></li> 
+					<li><a href="contact">联系</a></li>
 				</ul>
 		 	</div>
 		 	<div class="clear"></div>

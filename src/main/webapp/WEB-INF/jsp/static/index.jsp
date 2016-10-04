@@ -100,34 +100,33 @@
   <div class="main">
 	 <div class="content-top">
 		 <div class="wrap">
-			<h3>We Creative Quality Designs.</h3>
-			<h5>We Specialize in Web Design / Development and Graphic Design</h5>
+			<h3>创意质量设计</h3>
 			<div class="section group">
 				<div class="col_1_of_4 span_1_of_4" style="margin-left:12.5%;">
 					<div class="grid1">
 						<img src="../images/icon1.png" alt=""/>
-						<h4>Web development</h4>
+						<h4>Web 开发</h4>
 					</div>
 					<div class="desc">
-					   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+					   <p></p>
 					</div> 
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
 					<div class="grid1">
 						<img src="../images/icon2.png" alt=""/>
-						<h4>Web design</h4>
+						<h4>Web 平台</h4>
 					</div>
 					<div class="desc">
-					   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+					   <p></p>
 					</div> 
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
 					<div class="grid1">
 						<img src="../images/icon3.png" alt=""/>
-						<h4>Graphic design</h4>
+						<h4>Web 设计</h4>
 					</div>
 					<div class="desc">
-					   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+					   <p></p>
 					</div> 
 				</div>
 				<div class="clear"></div>
@@ -135,7 +134,7 @@
 		</div>
 	</div>
 	<div class="content-middle">
-		<h2><span>My work</span></h2>
+		<h2><span>图片</span></h2>
       <div id="container">
         <div id="main1">
        <ul id="tiles">
@@ -281,7 +280,7 @@
   </script>
 </div>
    <div class="content-bottom">
-		<h2><span>My Clients</span></h2>  
+		<h2><span>标志</span></h2>  
 		<p></p>     
 		<ul id="flexiselDemo3">
 			<li><img src="../images/client1.jpg" /></li>
@@ -347,11 +346,11 @@ $(window).load(function() {
 	 	<div class="wrap">
 		 	<div class="footer-nav">
 		 		<ul>
-					<li><a href="index">Home</a></li>
-					<li><a href="portfolio">Portfolio</a></li> 
-					<li><a href="blog">Blog</a></li> 
-					<li><a href="about">About Me</a></li> 
-					<li><a href="contact">Contact</a></li>
+					<li><a href="index">主页</a></li>
+					<li><a href="portfolio">个人作品</a></li> 
+					<li><a href="blog">博客</a></li> 
+					<li><a href="about">关于我</a></li> 
+					<li><a href="contact">联系</a></li>
 				</ul>
 		 	</div>
 		 	<div class="clear"></div>

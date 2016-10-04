@@ -94,14 +94,14 @@
   </div>
     <div class="banner">
       	<div class="wrap">
-      	    <h2>Portfolio</h2> <div class="clear"></div>
+      	    <h2>个人作品</h2> <div class="clear"></div>
       	</div>
     </div>
 	<div class="main">	
 	   <div class="portfolio-top">
 		   	<div class="wrap">
-		        <h3>We Creative Quality Designs.</h3>
-				<h5>We Specialize in Web Design / Development and Graphic Design</h5>
+		        <h3>创意质量设计</h3>
+				<h5></h5>
 			</div>
 		</div>
 		<div class="container">
@@ -243,11 +243,11 @@
 	 	<div class="wrap">
 		 	<div class="footer-nav">
 		 		<ul>
-					<li><a href="index">Home</a></li>
-					<li><a href="portfolio">Portfolio</a></li> 
-					<li><a href="blog">Blog</a></li> 
-					<li><a href="about">About Me</a></li> 
-					<li><a href="contact">Contact</a></li>
+					<li><a href="index">主页</a></li>
+					<li><a href="portfolio">个人作品</a></li> 
+					<li><a href="blog">博客</a></li> 
+					<li><a href="about">关于我</a></li> 
+					<li><a href="contact">联系</a></li>
 				</ul>
 		 	</div>
 		 	<div class="clear"></div>

@@ -6,10 +6,10 @@
 <title>About</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
 <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Add fancyBox main JS and CSS files -->
 <script src="../js/jquery.min.js"></script>
+<script src="../js/static/about.js"></script>
 <script src="../js/jquery.magnific-popup.js" type="text/javascript"></script>
 <link href="../css/magnific-popup.css" rel="stylesheet" type="text/css">
 		<script>
@@ -48,7 +48,7 @@
    </div>
    <div class="banner">
       	<div class="wrap">
-      	    <h2>About Me</h2><div class="clear"></div>
+      	    <h2>个人 空间</h2><div class="clear"></div>
       	</div>
     </div>
   <div class="main">	
@@ -66,13 +66,14 @@
 					<br>
 					<br>
 					<br>
-					<input style="margin-left:250px" type="text" class="text" value="密  码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '密  码';}" style="margin-left: 10px">
+					<input style="margin-left:250px" type="text" class="text" value="密  码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '密  码';}" >
 					</div>
 					<br>
 					<br>
 					<br>
 					<div class="contact-to"><div class=" captcha"></div>
-					<input style="margin-left:250px" type="text" class="text" value="验证码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '验证码';}" style="margin-left: 10px">
+					<input style="margin-left:250px" type="text" class="text captchaTest" value="验证码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '验证码';}">
+					<div class="captcha" style="display:none"><img src="./captcha"></div>
 					</div>
 				    <div style="margin-left:200px; float:right;"><img src="../images/login.png" alt=""/></div>
 					<div class="section group example">
@@ -88,7 +89,7 @@
 				<div class="clear"></div>				
 		    </div>
 		    <div class="about-middle">
-		   	 <h4><span>My Skills</span></h4>
+		   	 <h4><span>技能</span></h4>
 		   	 <p></p>
 		   	</div>
 		   <div class="section group example">
@@ -149,14 +150,14 @@
 			   <div class="clear"></div>	
 		  </div>
 		   <div class="about-middle">
-		   	 <h4><span>My Team</span></h4>
+		   	 <h4><span>团队</span></h4>
 		   	 <p></p>
 		   </div>
 			<div class="team1">
 				<div class="col_1_of_about-grids span_1_of_about-grids" align="center" style="margin-left:41%">
 					<a class="popup-with-zoom-anim" href="#small-dialog2" >
 						<img src="../images/about-img9.jpg" alt=""/>
-						<h3>Only Me</h3>
+						<h3>我</h3>
 					</a>
 						<!-- start magnific -->
 								 <div id="small-dialog2" class="mfp-hide">
@@ -188,11 +189,11 @@
 	 	<div class="wrap">
 		 	<div class="footer-nav">
 		 		<ul>
-					<li><a href="index">Home</a></li>
-					<li><a href="portfolio">Portfolio</a></li> 
-					<li><a href="blog">Blog</a></li> 
-					<li><a href="about">About Me</a></li> 
-					<li><a href="contact">Contact</a></li>
+					<li><a href="index">主页</a></li>
+					<li><a href="portfolio">个人作品</a></li> 
+					<li><a href="blog">博客</a></li> 
+					<li><a href="about">关于我</a></li> 
+					<li><a href="contact">联系</a></li>
 				</ul>
 		 	</div>
 		 	<div class="clear"></div>

@@ -70,7 +70,7 @@
   </div>
    <div class="banner">
       <div class="wrap">
-      	  <h2>Project</h2><div class="clear"></div>
+      	  <h2>个人项目</h2><div class="clear"></div>
       </div>
     </div>
 	<div class="main">	
@@ -190,11 +190,11 @@
 	 	<div class="wrap">
 		 	<div class="footer-nav">
 		 		<ul>
-					<li><a href="index">Home</a></li>
-					<li><a href="portfolio">Portfolio</a></li> 
-					<li><a href="blog">Blog</a></li> 
-					<li><a href="about">About Me</a></li> 
-					<li><a href="contact">Contact</a></li>
+					<li><a href="index">主页</a></li>
+					<li><a href="portfolio">个人作品</a></li> 
+					<li><a href="blog">博客</a></li> 
+					<li><a href="about">关于我</a></li> 
+					<li><a href="contact">联系</a></li>
 				</ul>
 		 	</div>
 		 	<div class="clear"></div>

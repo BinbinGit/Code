@@ -49,7 +49,7 @@
    </div>
    <div class="banner">
       	<div class="wrap">
-      	     <h2>Blog</h2><div class="clear"></div>
+      	     <h2>博客</h2><div class="clear"></div>
       	</div>
     </div>
 	<div class="main">	
@@ -162,7 +162,7 @@
 		</div>
 	   <div class="clear"></div>
 	   <ul class="dc_pagination dc_paginationA dc_paginationA06">
-		    <li><a href="#" class="previous">Previous</a></li>
+		    <li><a href="#" class="previous">上一页</a></li>
 		    <li><a href="#">1</a></li>
 		    <li><a href="#">2</a></li>
 		    <li><a href="#" class="current">3</a></li>
@@ -171,7 +171,7 @@
 		    <li><a href="#">...</a></li>
 		    <li><a href="#">19</a></li>
 		    <li><a href="#">20</a></li>
-		    <li><a href="#" class="next">Next</a></li>
+		    <li><a href="#" class="next">下一页</a></li>
 	   </ul>
 	 </div>
 	 <div class="project-sidebar">
@@ -264,11 +264,11 @@
 	 	<div class="wrap">
 		 	<div class="footer-nav">
 		 		<ul>
-					<li><a href="index">Home</a></li>
-					<li><a href="portfolio">Portfolio</a></li> 
-					<li><a href="blog">Blog</a></li> 
-					<li><a href="about">About Me</a></li> 
-					<li><a href="contact">Contact</a></li>
+					<li><a href="index">主页</a></li>
+					<li><a href="portfolio">个人作品</a></li> 
+					<li><a href="blog">博客</a></li> 
+					<li><a href="about">关于我</a></li> 
+					<li><a href="contact">联系</a></li>
 				</ul>
 		 	</div>
 		 	<div class="clear"></div>
