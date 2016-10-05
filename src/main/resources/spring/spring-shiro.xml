@@ -15,13 +15,14 @@
 			<value>
 						
 			<!-- 权限验证 -->
-			/user/* = authc,roles[admin]
 			/css/* = anon
 			/images/* = anon
 			/js/* = anon
+			/user/background =authc,roles[admin]
 			
 			<!-- 验证登陆 -->
 			/view/*=anon
+			/user/login = anon
 			/* = authc
 
 			

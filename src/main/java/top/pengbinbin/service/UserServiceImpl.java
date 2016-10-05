@@ -1,5 +1,7 @@
 package top.pengbinbin.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -46,6 +48,11 @@ public class UserServiceImpl implements UserService{
 	public User selectByUserName(String username) {
 		// TODO Auto-generated method stub
 		return userDao.selectByUserName(username);
+	}
+
+	public List<User> selectAll() {
+		// TODO Auto-generated method stub
+		return userDao.selectAll();
 	}
 
 }

@@ -16,7 +16,19 @@
 
 	<description>Spring Configuration</description>
 
+	<!-- 设置中文返回集字符编码 -->
+	<bean id="utf8Charset" class="java.nio.charset.Charset"
+          factory-method="forName">
+        <constructor-arg value="UTF-8"/>
+    </bean>
 
+    <mvc:annotation-driven>
+        <mvc:message-converters>
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <constructor-arg ref="utf8Charset"/>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
 	
 	<!-- 使用Annotation自动注册Bean,只扫描@Controller -->
 	<!-- base-package 如果多个，用“,”分隔 -->

@@ -1,5 +1,7 @@
 package top.pengbinbin.service;
 
+import java.util.List;
+
 import top.pengbinbin.entity.User;
 
 public interface UserService {
@@ -16,4 +18,6 @@ public interface UserService {
     int updateByPrimaryKey(User record);
 
 	User selectByUserName(String username);
+	
+	List<User> selectAll();
 }

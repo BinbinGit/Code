@@ -1,5 +1,7 @@
 package top.pengbinbin.common.api;
 
+import java.util.List;
+
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
@@ -47,7 +49,7 @@ public class MonitorRealm extends AuthorizingRealm {
 	@Override
 	protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
 		String currentUserEmail = (String)super.getAvailablePrincipal(principals);
-		if(currentUserEmail.equals("addmin")){
+		if(MD5Util.validate("admin",currentUserEmail)){
 			SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
 			simpleAuthorizationInfo.addRole("admin");
 			simpleAuthorizationInfo.addStringPermission("admin");
@@ -62,22 +64,25 @@ public class MonitorRealm extends AuthorizingRealm {
 	@Override
 	protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
 		 UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;
-		 User verifyUser = userService.selectByUserName(token.getUsername());
+		 List<User> users=userService.selectAll();
 		 //判断是否存在该用户
-		 if(verifyUser != null){
-			 String passwd = new String(token.getPassword());
-			 //验证密码,成功返回认证,失败返回null
-			 if(verifyUser.getPassword().equals(passwd)){
-				 //将email加入到session里面
-				Session session = SecurityUtils.getSubject().getSession();
-				session.setAttribute("userName", verifyUser.getUserName());
-				 return new SimpleAuthenticationInfo(token.getUsername(),
-							token.getPassword(),getName());
+		 for(User user:users){
+			 if(MD5Util.validate(user.getUserName(), token.getUsername())){
+				 String passwd = new String(token.getPassword());
+				 //验证密码,成功返回认证,失败返回null
+				 if(MD5Util.validate(user.getPassword(), passwd)){
+					 //将email加入到session里面
+					Session session = SecurityUtils.getSubject().getSession();
+					session.setAttribute("userName", token.getUsername());
+					 return new SimpleAuthenticationInfo(token.getUsername(),
+							 token.getPassword(),getName());
+				 }
+				 else{
+					 throw new AuthenticationException();
+				 }
 			 }
-		 }else{
-			 throw new AuthenticationException();
 		 }
-		return null;
+		throw new AuthenticationException();
 	}
 
 }

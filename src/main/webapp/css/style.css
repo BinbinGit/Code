@@ -1750,6 +1750,17 @@ h5.leave{
 	outline: none;
 	font-size: 0.89em;
 }
+.contact-to input[type="password"] {
+	padding: 10px 10px;
+	width:29.4%;
+	margin: 10px 0;
+	border: 1px solid #E1E2E2;
+	color: #000;
+	background: #FFF;
+	float: left;
+	outline: none;
+	font-size: 0.89em;
+}
 .contact{
 	padding:50px 0 30px;
 }

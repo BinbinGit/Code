@@ -1,5 +1,7 @@
 package top.pengbinbin.dao;
 
+import java.util.List;
+
 import top.pengbinbin.common.api.MybatisDao;
 import top.pengbinbin.entity.User;
 import top.pengbinbin.service.UserService;
@@ -19,4 +21,6 @@ public interface UserDao {
     int updateByPrimaryKey(User record);
 
 	User selectByUserName(String username);
+	
+	List<User> selectAll();
 }

@@ -11,10 +11,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import top.pengbinbin.common.api.Captcha;
+import top.pengbinbin.common.api.MD5Util;
 
 @Controller
 @RequestMapping("view")
-public class view {
+public class View {
 
 	@RequestMapping("index")
 	public ModelAndView index()  {
@@ -79,9 +80,10 @@ public class view {
         response.setHeader("Cache-Control", "no-cache");  
         response.setDateHeader("Expires", 0);  
         Captcha instance = new Captcha();
-        Cookie cookie = new Cookie("scaptcha", instance.getCode());  
+        Cookie cookie = new Cookie("scaptcha", MD5Util.encode2hex(instance.getCode()));  
         cookie.setMaxAge(1800);
-        response.addCookie(cookie);  
+        cookie.setPath("/Binbin/");
+        response.addCookie(cookie);
         instance.write(response.getOutputStream());
 	}
 }

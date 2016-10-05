@@ -9,6 +9,7 @@
 <link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Add fancyBox main JS and CSS files -->
 <script src="${pageContext.request.contextPath}/js/common/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/common/jquery.md5.js"></script>
 <script src="${pageContext.request.contextPath}/js/static/about.js"></script>
 <script src="${pageContext.request.contextPath}/js/common/jquery.magnific-popup.js" type="text/javascript"></script>
 <link href="${pageContext.request.contextPath}/css/magnific-popup.css" rel="stylesheet" type="text/css">
@@ -66,7 +67,7 @@
 					<br>
 					<br>
 					<br>
-					<input style="margin-left:250px" type="text" class="text password" value="密  码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '密  码';}" >
+					<input type="text" class="text password" value="密码" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="margin-left:250px" />
 					</div>
 					<br>
 					<br>
@@ -183,6 +184,10 @@
 			</div>
 		 </div>
      </div>
+  </div>
+  <!-- ajax loading picture -->
+  <div class="ajax-loader" style="display:none;position:absolute;top:500px; left:300px">
+  <img src="${pageContext.request.contextPath}/images/ajax-loader.gif"/>
   </div>	
   <div class="footer">
 	 <div class="footer-bottom">
