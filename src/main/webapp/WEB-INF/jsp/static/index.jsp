@@ -6,13 +6,13 @@
 <title>Home</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery -->
-<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/common/jquery.min.js"></script>
 <!-- Add fancyBox main JS and CSS files -->
-<script src="../js/jquery.magnific-popup.js" type="text/javascript"></script>
-<link href="../css/magnific-popup.css" rel="stylesheet" type="text/css">
-   <link rel="stylesheet" href="../css/colorbox.css">
+<script src="${pageContext.request.contextPath}/js/common/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="${pageContext.request.contextPath}/css/magnific-popup.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" href="${pageContext.request.contextPath}/css/colorbox.css">
 		<script>
 			$(document).ready(function() {
 				$('.popup-with-zoom-anim').magnificPopup({
@@ -33,7 +33,7 @@
   <div class="header">	
       <div class="wrap"> 
 	         <div class="logo">
-				<a href="index"><img src="../images/logo.png" alt=""/></a>
+				<a href="index"><img src="${pageContext.request.contextPath}/images/logo.png" alt=""/></a>
 			 </div>
 			 <div class="cssmenu">
 				<ul>
@@ -52,31 +52,31 @@
 			   <div class="wmuSliderWrapper">
 				   <article style="position: absolute; width: 100%; opacity: 0;"> 
 				   	<div class="banner-wrap">
-				   	<img src="../images/home-total1.jpg" alt=""/>
+				   	<img src="${pageContext.request.contextPath}/images/home-total1.jpg" alt=""/>
 						 <div class="clear"></div>
 					 </div>
 					</article>
 				   <article style="position: relative; width: 100%; opacity: 1;"> 
 				   	 <div class="banner-wrap">
-				   	 	<img src="../images/home-total2.jpg" alt=""/>
+				   	 	<img src="${pageContext.request.contextPath}/images/home-total2.jpg" alt=""/>
 						<div class="clear"></div>
 					 </div>
 				   </article>
 				   <article style="position: absolute; width: 100%; opacity: 0;">
 				   	<div class="banner-wrap">
-				   		<img src="../images/home-total3.jpg" alt=""/>
+				   		<img src="${pageContext.request.contextPath}/images/home-total3.jpg" alt=""/>
 						 <div class="clear"></div>
 					 </div>
 				   </article>
 				   <article style="position: absolute; width: 100%; opacity: 0;">
 				   	<div class="banner-wrap">
-				   		<img src="../images/home-total4.jpg" alt=""/>
+				   		<img src="${pageContext.request.contextPath}/images/home-total4.jpg" alt=""/>
 						 <div class="clear"></div>
 					 </div>
 				   </article>
 				   <article style="position: absolute; width: 100%; opacity: 0;"> 
 				   		<div class="banner-wrap">
-				   			<img src="../images/home-total5.jpg" alt=""/>
+				   			<img src="${pageContext.request.contextPath}/images/home-total5.jpg" alt=""/>
 						 <div class="clear"></div>
 					 </div>
 			      </article>
@@ -90,8 +90,8 @@
                 	<li><a href="#">4</a></li>
                   </ul>
         </div>
-            	 <script src="../js/jquery.wmuSlider.js"></script> 
-				 <script type="text/javascript" src="../js/modernizr.custom.min.js"></script> 
+            	 <script src="${pageContext.request.contextPath}/js/common/jquery.wmuSlider.js"></script> 
+				 <script type="text/javascript" src="${pageContext.request.contextPath}/js/common/modernizr.custom.min.js"></script> 
 						<script>
        						 $('.example1').wmuSlider();         
    						</script> 	           	      
@@ -104,7 +104,7 @@
 			<div class="section group">
 				<div class="col_1_of_4 span_1_of_4" style="margin-left:12.5%;">
 					<div class="grid1">
-						<img src="../images/icon1.png" alt=""/>
+						<img src="${pageContext.request.contextPath}/images/icon1.png" alt=""/>
 						<h4>Web 开发</h4>
 					</div>
 					<div class="desc">
@@ -113,7 +113,7 @@
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
 					<div class="grid1">
-						<img src="../images/icon2.png" alt=""/>
+						<img src="${pageContext.request.contextPath}/images/icon2.png" alt=""/>
 						<h4>Web 平台</h4>
 					</div>
 					<div class="desc">
@@ -122,7 +122,7 @@
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
 					<div class="grid1">
-						<img src="../images/icon3.png" alt=""/>
+						<img src="${pageContext.request.contextPath}/images/icon3.png" alt=""/>
 						<h4>Web 设计</h4>
 					</div>
 					<div class="desc">
@@ -140,119 +140,119 @@
        <ul id="tiles">
         <!-- These are our grid blocks -->
         <li>
-          <a href="../images/t-pic1.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic1.jpg" width="200" height="283">
+          <a href="${pageContext.request.contextPath}/images/t-pic1.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic1.jpg" width="200" height="283">
           </a>
         </li>
         <li>
-          <a href="../images/t-pic2.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic2.jpg" width="200" height="300">
+          <a href="${pageContext.request.contextPath}/images/t-pic2.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic2.jpg" width="200" height="300">
           </a>
        </li>
         <li>
-          <a href="../images/t-pic3.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic3.jpg" width="200" height="252">
+          <a href="${pageContext.request.contextPath}/images/t-pic3.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic3.jpg" width="200" height="252">
           </a>
        </li>
         <li>
-          <a href="../images/t-pic4.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic4.jpg" width="200" height="158">
+          <a href="${pageContext.request.contextPath}/images/t-pic4.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic4.jpg" width="200" height="158">
           </a>
         </li>
         <li>
-          <a href="../images/t-pic5.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic5.jpg" width="200" height="265">
+          <a href="${pageContext.request.contextPath}/images/t-pic5.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic5.jpg" width="200" height="265">
           </a>
        </li>
         <li>
-          <a href="../images/pic6.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic6.jpg" width="200" height="158">
+          <a href="${pageContext.request.contextPath}/images/pic6.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic6.jpg" width="200" height="158">
           </a>
         </li>
         <li>
-          <a href="../images/pic7.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic7.jpg" width="200" height="200">
+          <a href="${pageContext.request.contextPath}/images/pic7.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic7.jpg" width="200" height="200">
           </a>
         </li>
         <li>
-          <a href="../images/pic8.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic8.jpg" width="200" height="200">
+          <a href="${pageContext.request.contextPath}/images/pic8.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic8.jpg" width="200" height="200">
           </a>
         </li>
         <li>
-          <a href="../images/pic9.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic9.jpg" width="200" height="133">
+          <a href="${pageContext.request.contextPath}/images/pic9.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic9.jpg" width="200" height="133">
           </a>
         </li>
         <li>
-          <a href="../images/pic10.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic10.jpg" width="200" height="193">
+          <a href="${pageContext.request.contextPath}/images/pic10.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic10.jpg" width="200" height="193">
           </a>
         </li>
         <li>
-          <a href="../images/pic11.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic11.jpg" width="200" height="283">
+          <a href="${pageContext.request.contextPath}/images/pic11.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic11.jpg" width="200" height="283">
           </a>
        </li>
         <li>
-          <a href="../images/t-pic1.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic1.jpg" width="200" height="283">
+          <a href="${pageContext.request.contextPath}/images/t-pic1.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic1.jpg" width="200" height="283">
           </a>
         </li>
         <li>
-          <a href="../images/t-pic2.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic2.jpg" width="200" height="300">
+          <a href="${pageContext.request.contextPath}/images/t-pic2.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic2.jpg" width="200" height="300">
           </a>
        </li>
         <li>
-          <a href="../images/t-pic3.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic3.jpg" width="200" height="252">
+          <a href="${pageContext.request.contextPath}/images/t-pic3.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic3.jpg" width="200" height="252">
           </a>
        </li>
         <li>
-          <a href="../images/t-pic4.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic4.jpg" width="200" height="158">
+          <a href="${pageContext.request.contextPath}/images/t-pic4.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic4.jpg" width="200" height="158">
           </a>
         </li>
         <li>
-          <a href="../images/t-pic5.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic5.jpg" width="200" height="265">
+          <a href="${pageContext.request.contextPath}/images/t-pic5.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic5.jpg" width="200" height="265">
           </a>
        </li>
         <li>
-          <a href="../images/pic6.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic6.jpg" width="200" height="158">
+          <a href="${pageContext.request.contextPath}/images/pic6.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic6.jpg" width="200" height="158">
           </a>
         </li>
         <li>
-          <a href="../images/pic7.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic7.jpg" width="200" height="200">
+          <a href="${pageContext.request.contextPath}/images/pic7.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic7.jpg" width="200" height="200">
           </a>
         </li>
         <li>
-          <a href="../images/pic8.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic8.jpg" width="200" height="200">
+          <a href="${pageContext.request.contextPath}/images/pic8.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic8.jpg" width="200" height="200">
           </a>
         </li>
         <li>
-          <a href="../images/pic9.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic9.jpg" width="200" height="133">
+          <a href="${pageContext.request.contextPath}/images/pic9.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic9.jpg" width="200" height="133">
           </a>
         </li>
         <li>
-          <a href="../images/pic10.jpg" rel="lightbox" class="cboxElement">
-            <img src="../images/pic10.jpg" width="200" height="193">
+          <a href="${pageContext.request.contextPath}/images/pic10.jpg" rel="lightbox" class="cboxElement">
+            <img src="${pageContext.request.contextPath}/images/pic10.jpg" width="200" height="193">
           </a>
         </li>
      </ul>
    </div> 
   </div>
   <!-- Include the imagesLoaded plug-in -->
-  <script src="../js/jquery.imagesloaded.js"></script>
+  <script src="${pageContext.request.contextPath}/js/common/jquery.imagesloaded.js"></script>
   <!-- include colorbox -->
-  <script src="../js/jquery.colorbox-min.js"></script>
+  <script src="${pageContext.request.contextPath}/js/common/jquery.colorbox-min.js"></script>
   <!-- Include the plug-in -->
-  <script src="../js/jquery.wookmark.js"></script>
+  <script src="${pageContext.request.contextPath}/js/common/jquery.wookmark.js"></script>
   <!-- Once the page is loaded, initalize the plug-in. -->
   <script type="text/javascript">
     (function ($){
@@ -283,14 +283,14 @@
 		<h2><span>标志</span></h2>  
 		<p></p>     
 		<ul id="flexiselDemo3">
-			<li><img src="../images/client1.jpg" /></li>
-			<li><img src="../images/client2.jpg" /></li>
-			<li><img src="../images/client3.jpg" /></li>
-			<li><img src="../images/client4.jpg" /></li>
-			<li><img src="../images/client5.jpg" /></li>
-			<li><img src="../images/client6.jpg" /></li>
-			<li><img src="../images/client7.jpg" /></li>
-			<li><img src="../images/client8.jpg" /></li>
+			<li><img src="${pageContext.request.contextPath}/images/client1.jpg" /></li>
+			<li><img src="${pageContext.request.contextPath}/images/client2.jpg" /></li>
+			<li><img src="${pageContext.request.contextPath}/images/client3.jpg" /></li>
+			<li><img src="${pageContext.request.contextPath}/images/client4.jpg" /></li>
+			<li><img src="${pageContext.request.contextPath}/images/client5.jpg" /></li>
+			<li><img src="${pageContext.request.contextPath}/images/client6.jpg" /></li>
+			<li><img src="${pageContext.request.contextPath}/images/client7.jpg" /></li>
+			<li><img src="${pageContext.request.contextPath}/images/client8.jpg" /></li>
 		</ul>
 	<script type="text/javascript">
 $(window).load(function() {
@@ -338,7 +338,7 @@ $(window).load(function() {
     
 });
 </script>
-<script type="text/javascript" src="../js/jquery.flexisel.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/common/jquery.flexisel.js"></script>
 </div>
 </div>	
   <div class="footer">

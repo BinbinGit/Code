@@ -6,12 +6,12 @@
 <title>About</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Add fancyBox main JS and CSS files -->
-<script src="../js/jquery.min.js"></script>
-<script src="../js/static/about.js"></script>
-<script src="../js/jquery.magnific-popup.js" type="text/javascript"></script>
-<link href="../css/magnific-popup.css" rel="stylesheet" type="text/css">
+<script src="${pageContext.request.contextPath}/js/common/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/static/about.js"></script>
+<script src="${pageContext.request.contextPath}/js/common/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="${pageContext.request.contextPath}/css/magnific-popup.css" rel="stylesheet" type="text/css">
 		<script>
 			$(document).ready(function() {
 				$('.popup-with-zoom-anim').magnificPopup({
@@ -32,7 +32,7 @@
   <div class="header">	
       <div class="wrap"> 
 	         <div class="logo">
-				<a href="index"><img src="../images/logo.png" alt=""/></a>
+				<a href="index"><img src="${pageContext.request.contextPath}/images/logo.png" alt=""/></a>
 			 </div>
 			 <div class="cssmenu">
 				<ul>
@@ -56,17 +56,17 @@
 	 	<div class="wrap">
 	 	  <div class="section group">
 				<div class="lsidebar span_1_of_about">
-				   <img src="../images/about-img.jpg" alt=""/>
+				   <img src="${pageContext.request.contextPath}/images/about-img.jpg" alt=""/>
 			    </div>
 				<div class="cont span_2_of_about" >
-					<img src="../images/welcomespace.png" alt=""/>
+					<img src="${pageContext.request.contextPath}/images/welcomespace.png" alt=""/>
 					<br>
 					<div class="contact-to">
-					<input style="margin-left:250px" type="text" class="text" value="用户名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '用户名';}" style="margin-left: 10px">
+					<input style="margin-left:250px" type="text" class="text username" value="用户名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '用户名';}" style="margin-left: 10px">
 					<br>
 					<br>
 					<br>
-					<input style="margin-left:250px" type="text" class="text" value="密  码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '密  码';}" >
+					<input style="margin-left:250px" type="text" class="text password" value="密  码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '密  码';}" >
 					</div>
 					<br>
 					<br>
@@ -75,7 +75,7 @@
 					<input style="margin-left:250px" type="text" class="text captchaTest" value="验证码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '验证码';}">
 					<div class="captcha" style="display:none"><img src="./captcha"></div>
 					</div>
-				    <div style="margin-left:200px; float:right;"><img src="../images/login.png" alt=""/></div>
+				    <div style="margin-left:200px; float:right;"><img id="loginPic" src="${pageContext.request.contextPath}/images/login.png" alt=""/></div>
 					<div class="section group example">
 						<div class="col_1_of_2 span_1_of_2">
 						   <p></p>
@@ -156,7 +156,7 @@
 			<div class="team1">
 				<div class="col_1_of_about-grids span_1_of_about-grids" align="center" style="margin-left:41%">
 					<a class="popup-with-zoom-anim" href="#small-dialog2" >
-						<img src="../images/about-img9.jpg" alt=""/>
+						<img src="${pageContext.request.contextPath}/images/about-img9.jpg" alt=""/>
 						<h3>我</h3>
 					</a>
 						<!-- start magnific -->

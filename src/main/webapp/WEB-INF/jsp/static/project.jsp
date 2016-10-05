@@ -4,16 +4,15 @@
 <html>
 <head>
 <title>Project</title>
-<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
-<link href="../css/elastislide.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${pageContext.request.contextPath}/css/elastislide.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery -->
-<script src="../js/jquery.min.js"></script>
-<script type="text/javascript" src="../js/jquery.tmpl.min.js"></script>
-<script type="text/javascript" src="../js/jquery.elastislide.js"></script>
-<script type="text/javascript" src="../js/gallery.js"></script>
+<script src="${pageContext.request.contextPath}/js/common/jquery.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/common/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/common/jquery.elastislide.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/common/gallery.js"></script>
 <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
 			<div class="rg-image-wrapper">
 				{{if itemsCount > 1}}
@@ -32,8 +31,8 @@
 			</div>
 </script>
 <!-- Add fancyBox main JS and CSS files -->
-<script src="../js/jquery.magnific-popup.js" type="text/javascript"></script>
-<link href="../css/magnific-popup.css" rel="stylesheet" type="text/css">
+<script src="${pageContext.request.contextPath}/js/common/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="${pageContext.request.contextPath}/css/magnific-popup.css" rel="stylesheet" type="text/css">
 		<script>
 			$(document).ready(function() {
 				$('.popup-with-zoom-anim').magnificPopup({
@@ -54,7 +53,7 @@
   <div class="header">	
       <div class="wrap"> 
 	         <div class="logo">
-				<a href="index"><img src="../images/logo.png" alt=""/></a>
+				<a href="index"><img src="${pageContext.request.contextPath}/images/logo.png" alt=""/></a>
 			 </div>
 			 <div class="cssmenu">
 				<ul>
@@ -87,26 +86,26 @@
 					</div>
 					<div class="es-carousel">
 						<ul>
-						    <li><a href="#"><img src="../images/t-p1.jpg" data-large="../images/p1.jpg" alt="image01"/></a></li>
-							<li><a href="#"><img src="../images/p2.jpg" data-large="../images/p2.jpg" alt="image02"/></a></li>
-							<li><a href="#"><img src="../images/p3.jpg" data-large="../images/p3.jpg" alt="image03"/></a></li>
-							<li><a href="#"><img src="../images/p4.jpg" data-large="../images/p4.jpg" alt="image04"/></a></li>
-							<li><a href="#"><img src="../images/p5.jpg" data-large="../images/p5.jpg" alt="image05"/></a></li>
-							<li><a href="#"><img src="../images/p6.jpg" data-large="../images/p6.jpg" alt="image06"/></a></li>
-							<li><a href="#"><img src="../images/p7.jpg" data-large="../images/p7.jpg" alt="image07"/></a></li>
-							<li><a href="#"><img src="../images/p8.jpg" data-large="../images/p8.jpg" alt="image08"/></a></li>
-							<li><a href="#"><img src="../images/p9.jpg" data-large="../images/p9.jpg" alt="image09"/></a></li>
-							<li><a href="#"><img src="../images/p10.jpg" data-large="../images/p10.jpg" alt="image10"/></a></li>
-							<li><a href="#"><img src="../images/t-p1.jpg" data-large="../images/p1.jpg" alt="image12"/></a></li>
-							<li><a href="#"><img src="../images/p2.jpg" data-large="../images/p2.jpg" alt="image13"/></a></li>
-							<li><a href="#"><img src="../images/p3.jpg" data-large="../images/p3.jpg" alt="image14"/></a></li>
-							<li><a href="#"><img src="../images/p4.jpg" data-large="../images/p4.jpg" alt="image15"/></a></li>
-							<li><a href="#"><img src="../images/p5.jpg" data-large="../images/p5.jpg" alt="image16"/></a></li>
-							<li><a href="#"><img src="../images/p6.jpg" data-large="../images/p6.jpg" alt="image17"/></a></li>
-							<li><a href="#"><img src="../images/p7.jpg" data-large="../images/p7.jpg" alt="image18"/></a></li>
-							<li><a href="#"><img src="../images/p8.jpg" data-large="../images/p8.jpg" alt="image19"/></a></li>
-							<li><a href="#"><img src="../images/p9.jpg" data-large="../images/p9.jpg" alt="image20"/></a></li>
-							<li><a href="#"><img src="../images/p10.jpg" data-large="../images/p10.jpg" alt="image21"/></a></li>
+						    <li><a href="#"><img src="${pageContext.request.contextPath}/images/t-p1.jpg" data-large="${pageContext.request.contextPath}/images/p1.jpg" alt="image01"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p2.jpg" data-large="${pageContext.request.contextPath}/images/p2.jpg" alt="image02"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p3.jpg" data-large="${pageContext.request.contextPath}/images/p3.jpg" alt="image03"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p4.jpg" data-large="${pageContext.request.contextPath}/images/p4.jpg" alt="image04"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p5.jpg" data-large="${pageContext.request.contextPath}/images/p5.jpg" alt="image05"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p6.jpg" data-large="${pageContext.request.contextPath}/images/p6.jpg" alt="image06"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p7.jpg" data-large="${pageContext.request.contextPath}/images/p7.jpg" alt="image07"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p8.jpg" data-large="${pageContext.request.contextPath}/images/p8.jpg" alt="image08"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p9.jpg" data-large="${pageContext.request.contextPath}/images/p9.jpg" alt="image09"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p10.jpg" data-large="${pageContext.request.contextPath}/images/p10.jpg" alt="image10"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/t-p1.jpg" data-large="${pageContext.request.contextPath}/images/p1.jpg" alt="image12"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p2.jpg" data-large="${pageContext.request.contextPath}/images/p2.jpg" alt="image13"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p3.jpg" data-large="${pageContext.request.contextPath}/images/p3.jpg" alt="image14"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p4.jpg" data-large="${pageContext.request.contextPath}/images/p4.jpg" alt="image15"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p5.jpg" data-large="${pageContext.request.contextPath}/images/p5.jpg" alt="image16"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p6.jpg" data-large="${pageContext.request.contextPath}/images/p6.jpg" alt="image17"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p7.jpg" data-large="${pageContext.request.contextPath}/images/p7.jpg" alt="image18"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p8.jpg" data-large="${pageContext.request.contextPath}/images/p8.jpg" alt="image19"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p9.jpg" data-large="${pageContext.request.contextPath}/images/p9.jpg" alt="image20"/></a></li>
+							<li><a href="#"><img src="${pageContext.request.contextPath}/images/p10.jpg" data-large="${pageContext.request.contextPath}/images/p10.jpg" alt="image21"/></a></li>
 						</ul>
 					</div>
 				   </div>
@@ -124,13 +123,13 @@
 		     </div>
 		     <div class="gallery">
 		     		<ul>
-							<li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="../images/pic12.jpg" alt=""/></a></li>
-							<li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="../images/pic19.jpg" alt=""/></a></li>
-							<li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="../images/pic14.jpg" alt=""/></a></li>
+							<li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="${pageContext.request.contextPath}/images/pic12.jpg" alt=""/></a></li>
+							<li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="${pageContext.request.contextPath}/images/pic19.jpg" alt=""/></a></li>
+							<li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="${pageContext.request.contextPath}/images/pic14.jpg" alt=""/></a></li>
 							 <div id="small-dialog1" class="mfp-hide">
 								<div class="pop_up">
 								 	<h2>recent projects</h2>
-									<img src="../images/pic12.jpg" alt=""/>
+									<img src="${pageContext.request.contextPath}/images/pic12.jpg" alt=""/>
 					  			</div>
 							</div>
 						</ul>
@@ -141,30 +140,30 @@
 	     <div class="project-list">
 	     	<h4>Project Details</h4> 
 			<ul>
-				<li><img src="../images/arrow.png" alt=""><p><a href="#">Lorem ipsum dolor sit consectetuer</a></p><div class="clear"></div></li>
-				<li><img src="../images/arrow.png" alt=""><p><a href="#">Lorem ipsum dolor sit consectetuer</a></p><div class="clear"></div></li>
-				<li><img src="../images/arrow.png" alt=""><p><a href="#">Lorem ipsum dolor sit consectetuer</a></p><div class="clear"></div></li>
-				<li><img src="../images/arrow.png" alt=""><p><a href="#">Lorem ipsum dolor sit consectetuer</a></p><div class="clear"></div></li>
-				<li><img src="../images/arrow.png" alt=""><p><a href="#">Lorem ipsum dolor sit consectetuer</a></p><div class="clear"></div></li>
+				<li><img src="${pageContext.request.contextPath}/images/arrow.png" alt=""><p><a href="#">Lorem ipsum dolor sit consectetuer</a></p><div class="clear"></div></li>
+				<li><img src="${pageContext.request.contextPath}/images/arrow.png" alt=""><p><a href="#">Lorem ipsum dolor sit consectetuer</a></p><div class="clear"></div></li>
+				<li><img src="${pageContext.request.contextPath}/images/arrow.png" alt=""><p><a href="#">Lorem ipsum dolor sit consectetuer</a></p><div class="clear"></div></li>
+				<li><img src="${pageContext.request.contextPath}/images/arrow.png" alt=""><p><a href="#">Lorem ipsum dolor sit consectetuer</a></p><div class="clear"></div></li>
+				<li><img src="${pageContext.request.contextPath}/images/arrow.png" alt=""><p><a href="#">Lorem ipsum dolor sit consectetuer</a></p><div class="clear"></div></li>
 		   </ul>
 		 </div>
 		 <div class="project-list1">
 	     	<h4>Popular Posts</h4>
 			<ul>
-				<li><img src="../images/list-img.jpg" alt=""><p><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></p>
-					<span class="likes"><span class="link"><a href="#">Dec 14, 2013</a></span><a href="#"><img src="../images/heart.png" title="likes" alt=""/></a>16</span><div class="clear"></div>
+				<li><img src="${pageContext.request.contextPath}/images/list-img.jpg" alt=""><p><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></p>
+					<span class="likes"><span class="link"><a href="#">Dec 14, 2013</a></span><a href="#"><img src="${pageContext.request.contextPath}/images/heart.png" title="likes" alt=""/></a>16</span><div class="clear"></div>
 				</li>
-				<li><img src="../images/list-img1.jpg" alt=""><p><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></p>
-					<span class="likes"><span class="link"><a href="#">Dec 14, 2013</a></span><a href="#"><img src="../images/heart.png" title="likes" alt=""/></a>16</span><div class="clear"></div>
+				<li><img src="${pageContext.request.contextPath}/images/list-img1.jpg" alt=""><p><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></p>
+					<span class="likes"><span class="link"><a href="#">Dec 14, 2013</a></span><a href="#"><img src="${pageContext.request.contextPath}/images/heart.png" title="likes" alt=""/></a>16</span><div class="clear"></div>
 				</li>
-				<li><img src="../images/list-img2.jpg" alt=""><p><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></p>
-					<span class="likes"><span class="link"><a href="#">Dec 14, 2013</a></span><a href="#"><img src="../images/heart.png" title="likes" alt=""/></a>16</span><div class="clear"></div>
+				<li><img src="${pageContext.request.contextPath}/images/list-img2.jpg" alt=""><p><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></p>
+					<span class="likes"><span class="link"><a href="#">Dec 14, 2013</a></span><a href="#"><img src="${pageContext.request.contextPath}/images/heart.png" title="likes" alt=""/></a>16</span><div class="clear"></div>
 				</li>
-				<li><img src="../images/list-img4.jpg" alt=""><p><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></p>
-					<span class="likes"><span class="link"><a href="#">Dec 14, 2013</a></span><a href="#"><img src="../images/heart.png" title="likes" alt=""/></a>16</span><div class="clear"></div>
+				<li><img src="${pageContext.request.contextPath}/images/list-img4.jpg" alt=""><p><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></p>
+					<span class="likes"><span class="link"><a href="#">Dec 14, 2013</a></span><a href="#"><img src="${pageContext.request.contextPath}/images/heart.png" title="likes" alt=""/></a>16</span><div class="clear"></div>
 				</li>
-				<li><img src="../images/list-img5.jpg" alt=""><p><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></p>
-					<span class="likes"><span class="link"><a href="#">Dec 14, 2013</a></span><a href="#"><img src="../images/heart.png" title="likes" alt=""/></a>16</span><div class="clear"></div>
+				<li><img src="${pageContext.request.contextPath}/images/list-img5.jpg" alt=""><p><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></p>
+					<span class="likes"><span class="link"><a href="#">Dec 14, 2013</a></span><a href="#"><img src="${pageContext.request.contextPath}/images/heart.png" title="likes" alt=""/></a>16</span><div class="clear"></div>
 				</li>
 			</ul>
 		 </div>

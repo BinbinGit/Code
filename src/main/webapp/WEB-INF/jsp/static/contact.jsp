@@ -6,12 +6,11 @@
 <title>Contact</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
-<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Add fancyBox main JS and CSS files -->
-<script src="../js/jquery.min.js"></script>
-<script src="../js/jquery.magnific-popup.js" type="text/javascript"></script>
-<link href="../css/magnific-popup.css" rel="stylesheet" type="text/css">
+<script src="${pageContext.request.contextPath}/js/common/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/common/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="${pageContext.request.contextPath}/css/magnific-popup.css" rel="stylesheet" type="text/css">
 
 		<script>
 			$(document).ready(function() {
@@ -33,7 +32,7 @@
   <div class="header">	
        <div class="wrap"> 
 	         <div class="logo">
-				<a href="index"><img src="../images/logo.png" alt=""/></a>
+				<a href="index"><img src="${pageContext.request.contextPath}/images/logo.png" alt=""/></a>
 			 </div>
 			 <div class="cssmenu">
 				<ul>
@@ -76,9 +75,9 @@
 				   <h5 class="leave">联系信息</h5><div class="clear"></div>
 				   <div class="contact-list">
 						<ul>
-							<li><img src="../images/address.png" alt=""><p>地址：中国大陆</p><div class="clear"></div></li>
-							<li><img src="../images/phone.png" alt=""><p>电话: 12580 </p><div class="clear"></div></li>
-							<li><img src="../images/msg.png" alt=""><p>Email: <span class="yellow1"><a href="#">www.pengbinbin.top</a></span></p><div class="clear"></div></li>
+							<li><img src="${pageContext.request.contextPath}/images/address.png" alt=""><p>地址：中国大陆</p><div class="clear"></div></li>
+							<li><img src="${pageContext.request.contextPath}/images/phone.png" alt=""><p>电话: 12580 </p><div class="clear"></div></li>
+							<li><img src="${pageContext.request.contextPath}/images/msg.png" alt=""><p>Email: <span class="yellow1"><a href="#">www.pengbinbin.top</a></span></p><div class="clear"></div></li>
 					   </ul>
 					</div>
 			    </div>
