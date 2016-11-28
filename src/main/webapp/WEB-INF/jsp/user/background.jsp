@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-爱彬彬
+欢迎admin
 </body>
 </html>
